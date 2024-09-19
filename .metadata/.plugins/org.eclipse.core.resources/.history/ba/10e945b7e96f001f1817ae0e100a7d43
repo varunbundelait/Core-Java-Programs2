@@ -1,0 +1,7 @@
+package com.nit.core;
+
+public class SumSeries {
+  public static void main(String[] args) {
+	
+}
+}

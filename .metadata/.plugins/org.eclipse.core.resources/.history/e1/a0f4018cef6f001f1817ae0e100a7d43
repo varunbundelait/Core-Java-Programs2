@@ -1,0 +1,33 @@
+package com.nit.core;
+
+import java.util.Scanner;
+
+public class PrimeNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        int num, i, num1=3, status=1;  
+		System.out.println("Enter a number\n");
+		Scanner sc= new Scanner(System.in);
+        num=sc.nextInt();
+        if(num>=1) {
+        	System.out.println(+num);
+        	System.out.println(2);
+        }
+        for(int count=2; count<=num;) {
+        	for(int j=2; j<=Math.sqrt(num1); j++) {
+        		if(num1%j==0) {
+        			status=0;
+        			break;
+        		}
+        	}
+        	if(status !=0) {
+        		System.out.println(num1);
+        		count++;
+        	}
+        	status=1;
+        	num1++;
+        }
+	}
+
+}

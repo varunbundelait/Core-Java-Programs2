@@ -1,0 +1,15 @@
+package com.nit.core;
+
+import java.util.Scanner;
+
+public class SumofTwoArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub4
+		System.out.println("Enter the size of array:\n");
+		Scanner sc=new Scanner(System.in);
+		
+
+	}
+
+}

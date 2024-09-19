@@ -1,0 +1,19 @@
+package com.nit.core;
+
+import java.util.Scanner;
+
+public class ForLoop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        int i, j; int sum;
+        Scanner sc=new Scanner(System.in);
+        sc.nextInt();
+        for(i=0; i<=10; i++) {
+        	for(j=0; j<=i; j++) {
+        		System.out.println(+ sum);
+        	}
+        }
+	}
+
+}

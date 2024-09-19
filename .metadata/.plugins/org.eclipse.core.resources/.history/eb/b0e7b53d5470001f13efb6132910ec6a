@@ -1,0 +1,16 @@
+package com.nit.core;
+
+import java.util.Scanner;
+
+public class SumSeriesInputByUser {
+   public static void main(String[] args) {
+	   double sum=0.0; int n;
+	   System.out.println("Enter a number");
+	   Scanner sc=new Scanner(System.in);
+	   n=sc.nextInt();
+	  for(int i=1; i<=n; i++) {
+		  sum+=i;
+		  System.out.println(+sum);
+	  }
+   }
+}
